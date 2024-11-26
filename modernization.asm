@@ -63,6 +63,8 @@
 //*------------------------------------------------------------------*
 //* COMPSRCE | Compile and link the source program.        | RC:0000 |
 //*------------------------------------------------------------------*
+//COMPSRCE EXEC ASMCP,MBR=SAMPASM
+//SYSIN    DD *                  
 SAMPLE   CSECT                                                          
 SAMPLE   AMODE 31                                                       
 MAIN     DS    0F                         Start address                       
